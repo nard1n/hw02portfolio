@@ -1,20 +1,63 @@
 * {
     font-family: 'Lora', serif;
+
+  /* Setting Box Model */
+    box-sizing: border-box;
 }
 
-body, html {
-    height: 100%;
+body {
 
-  }
-  .bg {
-    /* The image used */
-    /* background: url("./Assets/Images/bg-texture.jpg"); */
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
+  /* Background Visual */
+    background: url(./assets/images/bg-image.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  footer {
+    position :fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    border-top: 4px solid #C3A9A9;
+    text-align: center;
+    color: rgb(219, 219, 219);
+  }
+
+  #about-me {
+    /* positioning */
+    padding: 30px;
+    float: left;
+  
+    /* visual */
+    background: rgb(219, 219, 219);
+    color: rgb(117, 42, 117);
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .row {
+    /* Box-model */
+    width: 750px;
+    float: left;
+    
+    /* Positioning */
+    margin: 3rem auto;
+  
+  }
+  
+  /* profile picture styling */
+  .profile-pic {
+    width: 25%;
+    height: auto;
+    border-style: groove;
+    float: left;
+    margin: auto 15px;
   }
