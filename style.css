@@ -1,8 +1,5 @@
 * {
     font-family: 'Lora', serif;
-
-  /* Setting Box Model */
-    box-sizing: border-box;
 }
 
 body {
@@ -31,7 +28,7 @@ body {
 
   #about-me {
     /* positioning */
-    padding: 30px;
+    padding: 35px;
     float: left;
   
     /* visual */
@@ -40,22 +37,17 @@ body {
   }
 
   .container {
-    width: 100%;
+    margin: 0 auto;
   }
 
   .row {
-    /* Box-model */
-    width: 750px;
-    float: left;
-    
-    /* Positioning */
-    margin: 3rem auto;
+    margin: 3rem 5px;
   
   }
   
   /* profile picture styling */
   .profile-pic {
-    width: 25%;
+    width: 140px;
     height: auto;
     border-style: groove;
     float: left;
@@ -64,24 +56,37 @@ body {
 
   /* Rules that take effect when the browser's width switches between 400, 768, 992 */
 
-  /* Device screen larger than 992px */
-  @media screen and (min-width: 992px) {
-    .container {
-      width: 450px;
-    }
-  }
 
-    /* Device screen larger than 768px */
-    @media screen and (min-width: 768px) {
-      .container {
-        width: 280px;
-      }
-    }
-
-      /* Device screen larger than 400px */
+  /* Small Devices, mobile 400px and up */
   @media screen and (min-width: 400px) {
+
     .container {
-      width: 90%;
-      margin: 2em;
+      margin: 10px;
+      padding: 2px;
+      width: 100%;
+           
+    }
+
+    .row{
+      width: 100%;
+    }
+}
+
+  /* Medium Devices, tablets 768px and up */
+  @media screen and (min-width: 768px) {
+
+    .row {
+      width: 60%;
     }
   }
+        
+  /* Large Devices, desktops larger than 992px */
+  @media screen and (min-width: 992px) {
+    
+    .row {
+      width: 60%;
+      margin-top: 100px;
+    }
+  }
+
+  } 
