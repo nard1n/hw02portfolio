@@ -34,6 +34,7 @@ body {
     /* visual */
     background: rgb(219, 219, 219);
     color: rgb(117, 42, 117);
+  
   }
 
   .container {
@@ -52,6 +53,7 @@ body {
     border-style: groove;
     float: left;
     margin: auto 15px;
+  
   }
 
   /* Rules that take effect when the browser's width switches between 400, 768, 992 */
@@ -82,7 +84,7 @@ body {
         
   /* Large Devices, desktops larger than 992px */
   @media screen and (min-width: 992px) {
-    
+
     .row {
       width: 60%;
       margin-top: 100px;
