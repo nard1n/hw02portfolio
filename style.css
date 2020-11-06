@@ -29,7 +29,7 @@ body {
   #about-me {
     /* positioning */
     padding: 35px;
-    float: left;
+  
   
     /* visual */
     background: rgb(219, 219, 219);
@@ -37,13 +37,16 @@ body {
   
   }
 
-  .container {
+  .container{
     margin: 0 auto;
   }
 
   .row {
-    margin: 3rem 5px;
-  
+    margin: 3rem 5px;  
+  }
+
+  .portfolio {
+
   }
   
   /* profile picture styling */
