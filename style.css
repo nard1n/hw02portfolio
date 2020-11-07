@@ -26,27 +26,17 @@ body {
     color: rgb(219, 219, 219);
   }
 
+/* ids */
+
   #about-me {
     /* positioning */
     padding: 35px;
-  
+    margin: 3rem 5px;  
   
     /* visual */
     background: rgb(219, 219, 219);
     color: rgb(117, 42, 117);
   
-  }
-
-  .container{
-    margin: 0 auto;
-  }
-
-  .row {
-    margin: 3rem 5px;  
-  }
-
-  .portfolio {
-
   }
   
   /* profile picture styling */
@@ -59,10 +49,31 @@ body {
   
   }
 
+/* classes */
+
+  .row {
+    margin: 3rem 5px;  
+  }
+
+  .card-size{
+    width: 250px;
+    height: 250px;
+  }
+
   .btn {
     background-color: rgb(216, 142, 216);
     border-color: rgb(216, 142, 216);
     border-radius: 0%;
     color: white;
     padding: 10px 25px;
+  }
+  
+  .bottom-buffer{
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 992px) {
+    .card-style {
+      margin-bottom:50px;
+    }
   }
