@@ -2,13 +2,15 @@
 
 Nardin's Portfolio
 
+Link to deployed site can be found here: https://nard1n.github.io/hw02portfolio/
+
 ## Description
 
     This is the start of my personal portfolio. When creating this portfolio I was practicing responsive grid layouts using Bootstrap CSS Framework. Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. 
 
     Requirements:
    * A navbar
-   * A responsive layout + mobile responsive
+   * A responsive layout + mobile responsiveness
    * Responsive images
    * Portfolio must include: `index.html`, `portfolio.html` and `contact.html`
 
@@ -24,7 +26,7 @@ Nardin's Portfolio
 
 ## Installation
 
-    clone this repository and practive away
+    clone this repository and practive away. Your finalized result should look like this deploye portfolio: https://nard1n.github.io/hw02portfolio/
 
 ## Usage
 
@@ -201,5 +203,5 @@ Nardin's Portfolio
 ## Tests
 
     Test on mobile often to make sure the page is responsive. You can do that through your browser's dev tools and check out the responsivenees of the webpage across different Mobile devices.
-
+    Please leave a comment or contact me if you have questions
     And remember when making your edits to push your changes often and test, test, test! 
